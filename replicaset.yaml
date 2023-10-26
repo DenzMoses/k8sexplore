@@ -3,17 +3,17 @@ kind: ReplicaSet
 metadata:
   name: my-replica-set
   labels:
-    app: frontend
+    app: frontend-deployment
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: frontend
+      app: frontend-deployment
   template:
     metadata:
       name: nginx
       labels:
-        app: frontend
+        app: frontend-deployment
     spec:
       containers:
         - name: nginx

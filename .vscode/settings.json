@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/kustomization.json": [
+            "file:///home/user/Desktop/K8S/k8sexplore/pod.yaml",
+            "file:///home/user/Desktop/K8S/k8sexplore/replicaset.yaml"
+        ]
+    }
+}
